@@ -23,6 +23,7 @@ learned and understood, written in my own words so I remember it.
 
 ### Exploitation
 - [Stack Buffer Overflow](exploitation/stack-buffer-overflow.md) — same bug, two payoffs: overwrite an adjacent variable vs hijack the saved return address
+- [SQL Injection](exploitation/sql-injection.md) — it all lives at the unescaped quote: auth bypass, UNION extraction, and blind boolean/time-based
 
 ### Social Engineering
 - [Phishing Awareness Demo](social-engineering/phishing-awareness-demo.md) — how to demo phishing without building a harvester, and the red flags that give a fake login away
@@ -45,4 +46,4 @@ Every entry follows the same shape:
 - **Details** — the actual mechanics, commands, or gotchas
 - **Source** — where I learned it
 
-_Count: 6 entries_
+_Count: 7 entries_
