@@ -23,6 +23,7 @@ learned and understood, written in my own words so I remember it.
 
 ### Exploitation
 - [Stack Buffer Overflow](exploitation/stack-buffer-overflow.md) — same bug, two payoffs: overwrite an adjacent variable vs hijack the saved return address
+- [TryHackMe Buffer Overflow — Command Cheat Sheet](exploitation/thm-buffer-overflow-cheatsheet.md) — copy-paste recon, offset-finding and payload commands (no python3, printf/perl)
 - [SQL Injection](exploitation/sql-injection.md) — it all lives at the unescaped quote: auth bypass, UNION extraction, and blind boolean/time-based
 
 ### Social Engineering
@@ -46,4 +47,4 @@ Every entry follows the same shape:
 - **Details** — the actual mechanics, commands, or gotchas
 - **Source** — where I learned it
 
-_Count: 7 entries_
+_Count: 8 entries_
