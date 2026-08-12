@@ -21,6 +21,12 @@ learned and understood, written in my own words so I remember it.
 ### Git & Tooling
 - [Making GitHub contributions actually count](git/make-contributions-count.md) — why real commits sometimes don't show on the graph
 
+### Exploitation
+- [Stack Buffer Overflow](exploitation/stack-buffer-overflow.md) — same bug, two payoffs: overwrite an adjacent variable vs hijack the saved return address
+
+### Social Engineering
+- [Phishing Awareness Demo](social-engineering/phishing-awareness-demo.md) — how to demo phishing without building a harvester, and the red flags that give a fake login away
+
 ---
 
 ## How I add a new entry
@@ -39,4 +45,4 @@ Every entry follows the same shape:
 - **Details** — the actual mechanics, commands, or gotchas
 - **Source** — where I learned it
 
-_Count: 4 entries_
+_Count: 6 entries_
