@@ -18,6 +18,9 @@ learned and understood, written in my own words so I remember it.
 ### DFIR & Automation
 - [Why automated containment needs a human gate](dfir/containment-gate-design.md) — the asymmetry that makes some response actions safe to automate and others not
 
+### AI & LLMs
+- [Wiring LLM providers into an app (Claude / Gemini)](ai/swappable-llm-providers.md) — swappable AI backends, and the API gotchas: a constructed client isn't working auth, dated model names 404, "thinking" models return empty output, and free tiers need retries
+
 ### Git & Tooling
 - [Making GitHub contributions actually count](git/make-contributions-count.md) — why real commits sometimes don't show on the graph
 
