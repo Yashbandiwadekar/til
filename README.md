@@ -32,6 +32,15 @@ learned and understood, written in my own words so I remember it.
 ### Social Engineering
 - [Phishing Awareness Demo](social-engineering/phishing-awareness-demo.md) — how to demo phishing without building a harvester, and the red flags that give a fake login away
 
+### MLBC (Machine Learning & Blockchain Technology)
+- [K-Means Clustering](mlbc/k-means-clustering.md) — the assign/update loop, and why the distance table matters more than the final clusters
+- [Decision Tree Splitting Criteria](mlbc/decision-tree-splitting-criteria.md) — entropy + Information Gain (maximize) vs Gini Index (minimize), and why mixing them up costs marks
+- [Bagging vs Boosting](mlbc/bagging-vs-boosting.md) — parallel/independent vs sequential/corrective, the one distinction behind every Random Forest/AdaBoost/Gradient Boosting comparison
+- [Ridge, Lasso, and Elastic Net](mlbc/ridge-lasso-elasticnet.md) — Ridge shrinks, Lasso selects, Elastic Net does both with separate lambdas
+- [What Bias Actually Does in a Perceptron](mlbc/perceptron-bias.md) — how one constant moves the decision threshold off zero
+- [Naive Bayes: Which Variant for Which Data](mlbc/naive-bayes-variants.md) — Bernoulli (binary), Multinomial (counts), Gaussian (continuous)
+- [PCA: Compressing Correlated Features](mlbc/pca-dimensionality-reduction.md) — eigenvalue = how much variance, eigenvector = which direction
+
 ---
 
 ## How I add a new entry
@@ -50,4 +59,4 @@ Every entry follows the same shape:
 - **Details** — the actual mechanics, commands, or gotchas
 - **Source** — where I learned it
 
-_Count: 8 entries_
+_Count: 15 entries_
