@@ -31,6 +31,7 @@ learned and understood, written in my own words so I remember it.
 
 ### Social Engineering
 - [Phishing Awareness Demo](social-engineering/phishing-awareness-demo.md) — how to demo phishing without building a harvester, and the red flags that give a fake login away
+- [Phishing Email Analysis](social-engineering/phishing-email-analysis.md) — the SOC triage flow: headers and SPF/DKIM/DMARC, link and attachment inspection, safe tooling, then respond and prevent
 
 ### MLBC (Machine Learning & Blockchain Technology)
 - [K-Means Clustering](mlbc/k-means-clustering.md) — the assign/update loop, and why the distance table matters more than the final clusters
@@ -59,4 +60,4 @@ Every entry follows the same shape:
 - **Details** — the actual mechanics, commands, or gotchas
 - **Source** — where I learned it
 
-_Count: 15 entries_
+_Count: 16 entries_
