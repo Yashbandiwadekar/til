@@ -41,6 +41,8 @@ learned and understood, written in my own words so I remember it.
 - [What Bias Actually Does in a Perceptron](mlbc/perceptron-bias.md) — how one constant moves the decision threshold off zero
 - [Naive Bayes: Which Variant for Which Data](mlbc/naive-bayes-variants.md) — Bernoulli (binary), Multinomial (counts), Gaussian (continuous)
 - [PCA: Compressing Correlated Features](mlbc/pca-dimensionality-reduction.md) — eigenvalue = how much variance, eigenvector = which direction
+- [Merkle Tree: Building the Root and Proving a Transaction](mlbc/merkle-tree-and-proof.md) — pair-wise hashing up to the root, and why a proof needs only log2(n) hashes
+- [PoW vs PoS vs PoET](mlbc/pow-pos-poet-consensus.md) — work, stake, wait: how each picks the block creator, its energy cost and its main limitation
 
 ---
 
@@ -60,4 +62,4 @@ Every entry follows the same shape:
 - **Details** — the actual mechanics, commands, or gotchas
 - **Source** — where I learned it
 
-_Count: 16 entries_
+_Count: 18 entries_
