@@ -43,6 +43,9 @@ learned and understood, written in my own words so I remember it.
 - [PCA: Compressing Correlated Features](mlbc/pca-dimensionality-reduction.md) — eigenvalue = how much variance, eigenvector = which direction
 - [Merkle Tree: Building the Root and Proving a Transaction](mlbc/merkle-tree-and-proof.md) — pair-wise hashing up to the root, and why a proof needs only log2(n) hashes
 - [PoW vs PoS vs PoET](mlbc/pow-pos-poet-consensus.md) — work, stake, wait: how each picks the block creator, its energy cost and its main limitation
+- [How Blocks Are Linked, and Why That Beats a Central Ledger](mlbc/block-linking-and-decentralisation.md) — previous-hash chaining with real SHA-256 values, and what breaks when one block is edited
+- [Smart Contract Example: Crowdfunding](mlbc/smart-contract-crowdfunding.md) — Kickstarter logic as a compiled Solidity contract, plus the immutability challenge
+- [Blockchain for Patient Records](mlbc/blockchain-patient-records.md) — hash on-chain, encrypted data off-chain, patient holds the key; the erasure-vs-immutability privacy concern
 
 ---
 
@@ -62,4 +65,4 @@ Every entry follows the same shape:
 - **Details** — the actual mechanics, commands, or gotchas
 - **Source** — where I learned it
 
-_Count: 18 entries_
+_Count: 22 entries_
