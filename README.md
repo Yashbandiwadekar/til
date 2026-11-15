@@ -53,6 +53,9 @@ learned and understood, written in my own words so I remember it.
 - [Byzantine Generals' Problem](mlbc/byzantine-generals-problem.md) — agreement with traitors, n >= 3f + 1, and Nakamoto consensus as Bitcoin's fix
 - [Normalisation vs Standardisation](mlbc/normalisation-vs-standardisation.md) — min-max into [0,1] vs z-score to mean 0, sd 1, and when each fits
 - [Handling Missing Data](mlbc/missing-data-handling.md) — delete vs impute, with the trade-off of each technique
+- [Linear Regression: Residuals, MSE and the Best-Fit Line](mlbc/regression-cost-function-intuition.md) — what 'cost' means, least squares worked on four houses, and why huge weights signal overfitting
+- [Why a Penalty Shrinks Weights, and Why Only Lasso Hits Zero](mlbc/regularisation-penalty-intuition.md) — the leash/budget picture, one slope vs λ for Ridge/Lasso/ElasticNet, circle vs diamond
+- [PCA Worked End to End (Her 10-Point Example)](mlbc/pca-worked-example-teacher-method.md) — covariance, eigenvalues, unit eigenvector, raw vs mean-centred projection
 
 ---
 
@@ -72,4 +75,4 @@ Every entry follows the same shape:
 - **Details** — the actual mechanics, commands, or gotchas
 - **Source** — where I learned it
 
-_Count: 29 entries_
+_Count: 32 entries_
