@@ -41,7 +41,9 @@ PC1.
 
 - The covariance still uses the deviations from the mean. Only the final
   projection is raw.
-- Her step list says "standardise", but the worked example skips it.
+- "Standardise" is only a heading in her example. Her Step 3 slide shows
+  the means and nothing else. Nothing is divided by the standard deviation:
+  if it were, the diagonal of C would be 1, not 0.6166 and 0.7166.
 - She labels the *small* eigenvalue λ1 (0.0490) and the big one λ2. Always
   keep the largest.
 - Her PC1 [0.6778, 0.7351] is the exact [0.6779, 0.7352] truncated.
