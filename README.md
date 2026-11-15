@@ -46,6 +46,13 @@ learned and understood, written in my own words so I remember it.
 - [How Blocks Are Linked, and Why That Beats a Central Ledger](mlbc/block-linking-and-decentralisation.md) — previous-hash chaining with real SHA-256 values, and what breaks when one block is edited
 - [Smart Contract Example: Crowdfunding](mlbc/smart-contract-crowdfunding.md) — Kickstarter logic as a compiled Solidity contract, plus the immutability challenge
 - [Blockchain for Patient Records](mlbc/blockchain-patient-records.md) — hash on-chain, encrypted data off-chain, patient holds the key; the erasure-vs-immutability privacy concern
+- [Accuracy, Precision, Recall and F1](mlbc/confusion-matrix-metrics.md) — four formulas from TP/TN/FP/FN, and the 2TP/(2TP+FP+FN) shortcut for F1
+- [AdaBoost: The Weight-Update Loop](mlbc/adaboost-weight-update.md) — error, alpha, normaliser Z, re-weighting, and what eps = 0 or eps > 0.5 does
+- [Gradient Boosting: Learning the Residuals](mlbc/gradient-boosting-residuals.md) — mean as base model, trees on residuals, and why the learning rate stays small
+- [Nash Equilibrium via the Prisoner's Dilemma](mlbc/nash-equilibrium-prisoners-dilemma.md) — why both confessing is stable even though both denying is better
+- [Byzantine Generals' Problem](mlbc/byzantine-generals-problem.md) — agreement with traitors, n >= 3f + 1, and Nakamoto consensus as Bitcoin's fix
+- [Normalisation vs Standardisation](mlbc/normalisation-vs-standardisation.md) — min-max into [0,1] vs z-score to mean 0, sd 1, and when each fits
+- [Handling Missing Data](mlbc/missing-data-handling.md) — delete vs impute, with the trade-off of each technique
 
 ---
 
@@ -65,4 +72,4 @@ Every entry follows the same shape:
 - **Details** — the actual mechanics, commands, or gotchas
 - **Source** — where I learned it
 
-_Count: 22 entries_
+_Count: 29 entries_
