@@ -56,6 +56,7 @@ learned and understood, written in my own words so I remember it.
 - [Linear Regression: Residuals, MSE and the Best-Fit Line](mlbc/regression-cost-function-intuition.md) — what 'cost' means, least squares worked on four houses, and why huge weights signal overfitting
 - [Why a Penalty Shrinks Weights, and Why Only Lasso Hits Zero](mlbc/regularisation-penalty-intuition.md) — the leash/budget picture, one slope vs λ for Ridge/Lasso/ElasticNet, circle vs diamond
 - [PCA Worked End to End (Her 10-Point Example)](mlbc/pca-worked-example-teacher-method.md) — covariance, eigenvalues, unit eigenvector, raw vs mean-centred projection
+- [MLBC Numericals Drill](mlbc/numericals-drill-practice-set.md) — one recipe plus a self-test question and answer for every numerical type: K-means, metrics, Naive Bayes, PCA, CART/ID3, AdaBoost, least squares, Ridge/Lasso, scaling, Merkle, PoW nonce, PoS odds, PoET/BFT, SHA-256 padding, Nash
 
 ---
 
@@ -75,4 +76,4 @@ Every entry follows the same shape:
 - **Details** — the actual mechanics, commands, or gotchas
 - **Source** — where I learned it
 
-_Count: 32 entries_
+_Count: 33 entries_
